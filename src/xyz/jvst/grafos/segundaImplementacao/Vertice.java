@@ -1,10 +1,9 @@
-package grafos;
+package xyz.jvst.grafos.segundaImplementacao;
 
 public class Vertice {
 	private String id;
 
 	public Vertice(String id) {
-		super();
 		this.id = id;
 	}
 

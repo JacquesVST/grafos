@@ -1,4 +1,4 @@
-package grafos;
+package xyz.jvst.grafos.primeiraImplementacao;
 
 import java.util.List;
 

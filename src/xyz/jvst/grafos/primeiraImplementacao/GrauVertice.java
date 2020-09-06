@@ -1,4 +1,4 @@
-package grafos;
+package xyz.jvst.grafos.primeiraImplementacao;
 
 /*
  * Classe auxiliar para impressão do grau do vértice

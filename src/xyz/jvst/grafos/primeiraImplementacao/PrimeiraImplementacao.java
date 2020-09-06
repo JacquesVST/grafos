@@ -1,14 +1,13 @@
-package grafos;
+package xyz.jvst.grafos.primeiraImplementacao;
 
 import java.util.Scanner;
 
-public class Principal {
+public class PrimeiraImplementacao {
 
-	public static void main(String[] args) {
+	public static void menu(Scanner sc) {
 
-		// Impressão das opções de grafo disponÃ­veis
-		Scanner sc = new Scanner(System.in);
-		System.out.println("\tEscolha uma das opções abaixo:");
+		// Impressão das opções de grafo disponíveis
+		System.out.println("\n\tEscolha uma das opções abaixo:");
 		System.out.println("\n Digite 'exe1' para Exemplo 1 (direcionado)");
 		System.out.println(" Digite 'exe2' para Exemplo 2 (não direcionado)");
 		System.out.println(" Digite 'custom' para um grafo personalizado");
@@ -31,7 +30,7 @@ public class Principal {
 			grafoSelecionado = GeradorGrafos.novoGrafoAleatorio();
 		}
 
-		// Impressão das opções de impressÃµes disponÃ­veis
+		// Impressão das opções de impressão disponíveis
 		System.out.println("\n\tEscolha uma das ações abaixo:");
 		System.out.println("\n Digite 'madj' para Impressão da matriz de adjacência");
 		System.out.println(" Digite 'ladj' para Impressão da lista de adjacência");
